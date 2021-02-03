@@ -10,12 +10,12 @@ Then run the script in the file install.sh.
 
 Or just directly on the command line
 ```
-sh <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/install.sh)
 ```
 
 To get the latest code if this repo is updated, do the same thing but with update.sh.
 ```
-sh <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/update.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/update.sh)
 ```
 
 # How to initialize
