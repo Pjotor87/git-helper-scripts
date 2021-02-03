@@ -3,8 +3,10 @@
 git clone https://github.com/Pjotor87/git-helper-scripts.git
 # Remove the git directory at the root
 rm -rf git-helper-scripts/.git
-# And this Readme file
+# And the Readme file
 rm git-helper-scripts/README.md
+# And this install script file
+rm git-helper-scripts/install.sh
 # Move the clone script to the root directory
 mv git-helper-scripts/clone-new-project.sh clone-new-project.sh
 # Move the helper scripts directory one level up
