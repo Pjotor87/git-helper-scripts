@@ -21,10 +21,3 @@ Then cd into the folder containing this file and run it using:
 ```
 sh clone-new-project.sh
 ```
-
-You can begin by cloning this repository and enter the following info when prompted:
-```
-git-helper-scripts
-git clone https://github.com/Pjotor87/git-helper-scripts.git
-master
-```
