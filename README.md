@@ -11,6 +11,7 @@ cd /Users/<Your user>/code/
 git clone https://github.com/Pjotor87/git-helper-scripts.git
 # Remove the git directory at the root
 rm -rf /Users/<Your user>/code/.git
+# And this Readme file
 rm /Users/<Your user>/code/README.md
 ```
 
