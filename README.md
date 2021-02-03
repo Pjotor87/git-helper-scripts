@@ -3,7 +3,7 @@ Just some commonly used commands for working faster with git
 # How to set up
 
 Clone into the folder where development is done.
-For example: /Users/<Your user>/code/
+For example:```/Users/<Your user>/code/```
 
 ```
 mkdir /Users/<Your user>/code/
