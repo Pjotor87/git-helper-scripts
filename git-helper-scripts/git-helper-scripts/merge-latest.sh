@@ -1,6 +1,4 @@
-cd git-helper-scripts
-sh get-latest.sh
-cd ..
+sh git-helper-scripts/get-latest.sh
 
 . git-helper-scripts.conf
 
