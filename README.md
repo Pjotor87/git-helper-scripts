@@ -10,7 +10,12 @@ Then run the script in the file install.sh.
 
 Or just directly on the command line
 ```
-sh <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/install.sh)
+```
+
+To get the latest code if this repo is updated, do the same thing but with update.sh.
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Pjotor87/git-helper-scripts/master/update.sh)
 ```
 
 # How to initialize
@@ -29,5 +34,5 @@ sh clone-new-project.sh
 | clone-new-project.sh | Clones a project and prompts for info that will end up in the .conf file. |
 | git-helper-scripts.conf | Contains info about the project. Used by other scripts. |
 | get-latest.sh | Switch to the main branch and pull. |
-| new-feature | Runs get-latest.sh and creates a new branch and sets it up in the central repo. |
+| new-feature.sh | Runs get-latest.sh and creates a new branch and sets it up in the central repo. |
 | merge-latest.sh | Runs get-latest.sh and the switches back to the current branch and merges latest into the current branch. |
